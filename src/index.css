@@ -1,0 +1,36 @@
+* {
+  height: 0;
+  width: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: rgb(79, 159, 229);
+  width: 300px;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  position: relative;
+  left: 320px;
+  font-size: 80px;
+}
+div {
+  display: flex;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 300px 20px;
+  padding: 30px 80px;
+  border-radius: 10px;
+  font-size: 23px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: azure;
+}
